@@ -1,0 +1,20 @@
+Sample Rest Service usinbgf Spring Boot
+
+Prerequisite: 
+1. Java 1.8
+2. Maven 3.3+
+
+Steps After cloning execute the execute.bat file 
+
+Then open browser with 
+http://localhost:8080/greeting
+or 
+http://localhost:8080/greeting?name=User Name
+
+Defsult parameter value is world
+
+Output will get printed in browser in json format
+
+{"id":2,"content":"Hello, Ashok Kumar jha!"}
+for below url:
+http://localhost:8080/greeting?name=Ashok%20Kumar%20Jha
